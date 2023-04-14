@@ -633,13 +633,14 @@ ARM Macro Assembler    Page 10
               4002228C 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=.\objects\startup_air32f10x.d -o.\objects\startup_air32f10x.o -I.\
-RTE\Device\AIR32F103CB -I.\RTE\_Target_1 -IF:\keil5\pack\ARM\CMSIS\5.5.1\CMSIS\
-Core\Include -IF:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\Device\Include -IF:\keil5
-\pack\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\inc -IF:\keil5\pack\Keil
-\AIR32F103_DFP\1.1.2\RTE_Driver --predefine="__EVAL SETA 1" --predefine="__MICR
-OLIB SETA 1" --predefine="__UVISION_VERSION SETA 527" --predefine="_RTE_ SETA 1
-" --predefine="AIR32F10X_MD SETA 1" --list=.\listings\startup_air32f10x.lst RTE
-\Device\AIR32F103CB\startup_air32f10x.s
+RTE\Device\AIR32F103CB -I.\RTE\_Target_1 -IC:\Users\Administrator\AppData\Local
+\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include -IC:\Users\Administrator\AppData\
+Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\Device\Include -IC:\Users\Administrato
+r\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\inc 
+-IC:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\RTE_D
+river --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 527" 
+--predefine="_RTE_ SETA 1" --predefine="AIR32F10X_MD SETA 1" --list=.\listings\
+startup_air32f10x.lst RTE\Device\AIR32F103CB\startup_air32f10x.s
 
 
 
@@ -1556,4 +1557,4 @@ Symbol: __main
       At line 225 in file RTE\Device\AIR32F103CB\startup_air32f10x.s
 Warning: __main multiply defined
 2 symbols
-428 symbols in table
+427 symbols in table

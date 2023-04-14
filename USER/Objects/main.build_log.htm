@@ -5,11 +5,11 @@
 <h2>Tool Versions:</h2>
 IDE-Version: ¦ÌVision V5.27.1.0
 Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: qianyu 2890015861@qq.com, qianyu, LIC=----
+License Information: qianyu qianyu, qianyu, LIC=76F5U-SBSSX-8TK3P-M8GC0-1DVAI-3DK56
  
 Tool Versions:
-Toolchain:       MDK-Lite  Version: 5.27.1.0
-Toolchain Path:  F:\keil5\ARM\ARMCC\Bin
+Toolchain:       MDK-ARM Plus  Version: 5.27.1.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
 C Compiler:      Armcc.exe V5.06 update 6 (build 750)
 Assembler:       Armasm.exe V5.06 update 6 (build 750)
 Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
@@ -21,13 +21,40 @@ Target DLL:      Segger\JL2CM3.dll V2.99.35.0
 Dialog DLL:      TCM.DLL V1.36.1.0
  
 <h2>Project:</h2>
-E:\STM32+4ADC\USER\main.uvprojx
-Project File Date:  04/13/2023
+C:\Users\Administrator\Desktop\code_space\AIRF103CBT6-ADC-----\USER\main.uvprojx
+Project File Date:  04/14/2023
 
 <h2>Output:</h2>
-*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'F:\keil5\ARM\ARMCC\Bin'
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Target 1'
-".\Objects\main.axf" - 0 Error(s), 0 Warning(s).
+compiling oled.c...
+compiling adc.c...
+compiling main.c...
+main.c(132): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  	OLED_ShowString(64, 0, angle_str, 1);
+main.c(135): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  	OLED_ShowString(64, 2, angle_str, 1);
+main.c(257): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  	OLED_ShowString(64, 0, angle_str, 1);
+main.c(260): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+  	OLED_ShowString(64, 2, angle_str, 1); 
+main.c: 4 warnings, 0 errors
+compiling key.c...
+compiling pwm.c...
+compiling air32f10x_adc.c...
+compiling air32f10x_gpio.c...
+compiling air32f10x_i2c.c...
+compiling air32f10x_rcc.c...
+compiling air32f10x_rcc_ex.c...
+compiling delay.c...
+compiling misc.c...
+compiling air32f10x_tim.c...
+assembling startup_air32f10x.s...
+compiling system_air32f10x.c...
+compiling GPIO_AIR32F10x.c...
+linking...
+Program Size: Code=6600 RO-data=2648 RW-data=1588 ZI-data=1028  
+".\Objects\main.axf" - 0 Error(s), 4 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -54,10 +81,10 @@ Package Vendor: Keil
 <h2>Collection of Component include folders:</h2>
   .\RTE\Device\AIR32F103CB
   .\RTE\_Target_1
-  F:\keil5\pack\ARM\CMSIS\5.5.1\CMSIS\Core\Include
-  F:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\Device\Include
-  F:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\inc
-  F:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\RTE_Driver
+  C:\Users\Administrator\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\Device\Include
+  C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\inc
+  C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\RTE_Driver
 
 <h2>Collection of Component Files used:</h2>
 
@@ -69,23 +96,23 @@ Package Vendor: Keil
 
    * Component: Keil::Device:Startup:1.0.0
       Source file:   Device\Source\ARM\startup_air32f10x.s
-      Include file:  RTE_Driver\Config\RTE_Device.h
       Source file:   Device\Source\system_air32f10x.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
 
    * Component: Keil::Device:StdPeriph Drivers:ADC:1.0.0
       Include file:  Device\StdPeriph_Driver\inc\air32f10x_adc.h
       Source file:   Device\StdPeriph_Driver\src\air32f10x_adc.c
 
    * Component: Keil::Device:StdPeriph Drivers:Delay:1.0.0
-      Source file:   Device\StdPeriph_Driver\src\delay.c
       Include file:  Device\StdPeriph_Driver\inc\delay.h
+      Source file:   Device\StdPeriph_Driver\src\delay.c
 
    * Component: Keil::Device:StdPeriph Drivers:Framework:1.0.1
       Source file:   Device\StdPeriph_Driver\src\misc.c
-      Source file:   Device\StdPeriph_Driver\templates\air32f10x_conf.h
-      Include file:  Device\StdPeriph_Driver\templates\air32f10x_it.h
       Include file:  Device\StdPeriph_Driver\inc\misc.h
+      Include file:  Device\StdPeriph_Driver\templates\air32f10x_it.h
       Source file:   Device\StdPeriph_Driver\templates\air32f10x_it.c
+      Source file:   Device\StdPeriph_Driver\templates\air32f10x_conf.h
       Source file:   Device\StdPeriph_Driver\templates\main.c
 
    * Component: Keil::Device:StdPeriph Drivers:GPIO:1.0.0
@@ -93,19 +120,19 @@ Package Vendor: Keil
       Include file:  Device\StdPeriph_Driver\inc\air32f10x_gpio.h
 
    * Component: Keil::Device:StdPeriph Drivers:I2C:1.0.0
-      Source file:   Device\StdPeriph_Driver\src\air32f10x_i2c.c
       Include file:  Device\StdPeriph_Driver\inc\air32f10x_i2c.h
+      Source file:   Device\StdPeriph_Driver\src\air32f10x_i2c.c
 
    * Component: Keil::Device:StdPeriph Drivers:RCC:1.0.0
-      Source file:   Device\StdPeriph_Driver\src\air32f10x_rcc_ex.c
       Source file:   Device\StdPeriph_Driver\src\air32f10x_rcc.c
-      Include file:  Device\StdPeriph_Driver\inc\air32f10x_rcc.h
       Include file:  Device\StdPeriph_Driver\inc\air32f10x_rcc_ex.h
+      Include file:  Device\StdPeriph_Driver\inc\air32f10x_rcc.h
+      Source file:   Device\StdPeriph_Driver\src\air32f10x_rcc_ex.c
 
    * Component: Keil::Device:StdPeriph Drivers:TIM:1.0.0
       Include file:  Device\StdPeriph_Driver\inc\air32f10x_tim.h
       Source file:   Device\StdPeriph_Driver\src\air32f10x_tim.c
-Build Time Elapsed:  00:00:00
+Build Time Elapsed:  00:00:03
 </pre>
 </body>
 </html>

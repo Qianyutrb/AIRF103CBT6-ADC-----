@@ -1,8 +1,8 @@
-.\objects\delay.o: F:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\delay.c
+.\objects\delay.o: C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\delay.c
 .\objects\delay.o: ..\Libraries\DELAY\delay.h
 .\objects\delay.o: ..\Libraries\AIR32F10xLib\inc\air32f10x.h
 .\objects\delay.o: ..\Libraries\CMSIS\Include\core_cm3.h
-.\objects\delay.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\delay.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\delay.o: ..\Libraries\CMSIS\Include\cmsis_version.h
 .\objects\delay.o: ..\Libraries\CMSIS\Include\cmsis_compiler.h
 .\objects\delay.o: ..\Libraries\CMSIS\Include\cmsis_armcc.h

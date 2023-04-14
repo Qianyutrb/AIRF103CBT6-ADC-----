@@ -710,17 +710,17 @@ Image Symbol Table
     ../clib/microlib/longlong.c              0x00000000   Number         0  llushr.o ABSOLUTE
     ../clib/microlib/longlong.c              0x00000000   Number         0  llshl.o ABSOLUTE
     ../clib/microlib/longlong.c              0x00000000   Number         0  llsshr.o ABSOLUTE
-    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf3.o ABSOLUTE
     ../clib/microlib/printf/printf.c         0x00000000   Number         0  printfa.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printfb.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf0.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf1.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf2.o ABSOLUTE
+    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf3.o ABSOLUTE
     ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf4.o ABSOLUTE
     ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf5.o ABSOLUTE
     ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf6.o ABSOLUTE
     ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf7.o ABSOLUTE
     ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf8.o ABSOLUTE
-    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf2.o ABSOLUTE
-    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf1.o ABSOLUTE
-    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printf0.o ABSOLUTE
-    ../clib/microlib/printf/printf.c         0x00000000   Number         0  printfb.o ABSOLUTE
     ../clib/microlib/printf/stubs.s          0x00000000   Number         0  stubs.o ABSOLUTE
     ../clib/microlib/stdio/fputc.c           0x00000000   Number         0  fputc.o ABSOLUTE
     ../clib/microlib/stdio/semi.s            0x00000000   Number         0  semi.o ABSOLUTE
@@ -735,24 +735,24 @@ Image Symbol Table
     ../fplib/microlib/fpfix.c                0x00000000   Number         0  dfixul.o ABSOLUTE
     ../fplib/microlib/fpflt.c                0x00000000   Number         0  dfltui.o ABSOLUTE
     ../fplib/microlib/fpmul.c                0x00000000   Number         0  dmul.o ABSOLUTE
-    F:\\keil5\\pack\\Keil\\AIR32F103_DFP\\1.1.2\\Device\\StdPeriph_Driver\\src\\air32f10x_adc.c 0x00000000   Number         0  air32f10x_adc.o ABSOLUTE
-    F:\\keil5\\pack\\Keil\\AIR32F103_DFP\\1.1.2\\Device\\StdPeriph_Driver\\src\\air32f10x_gpio.c 0x00000000   Number         0  air32f10x_gpio.o ABSOLUTE
-    F:\\keil5\\pack\\Keil\\AIR32F103_DFP\\1.1.2\\Device\\StdPeriph_Driver\\src\\air32f10x_i2c.c 0x00000000   Number         0  air32f10x_i2c.o ABSOLUTE
-    F:\\keil5\\pack\\Keil\\AIR32F103_DFP\\1.1.2\\Device\\StdPeriph_Driver\\src\\air32f10x_rcc.c 0x00000000   Number         0  air32f10x_rcc.o ABSOLUTE
-    F:\\keil5\\pack\\Keil\\AIR32F103_DFP\\1.1.2\\Device\\StdPeriph_Driver\\src\\air32f10x_rcc_ex.c 0x00000000   Number         0  air32f10x_rcc_ex.o ABSOLUTE
-    F:\\keil5\\pack\\Keil\\AIR32F103_DFP\\1.1.2\\Device\\StdPeriph_Driver\\src\\air32f10x_tim.c 0x00000000   Number         0  air32f10x_tim.o ABSOLUTE
-    F:\\keil5\\pack\\Keil\\AIR32F103_DFP\\1.1.2\\Device\\StdPeriph_Driver\\src\\delay.c 0x00000000   Number         0  delay.o ABSOLUTE
-    F:\\keil5\\pack\\Keil\\AIR32F103_DFP\\1.1.2\\Device\\StdPeriph_Driver\\src\\misc.c 0x00000000   Number         0  misc.o ABSOLUTE
-    F:\\keil5\\pack\\Keil\\AIR32F103_DFP\\1.1.2\\RTE_Driver\\GPIO_AIR32F10x.c 0x00000000   Number         0  gpio_air32f10x.o ABSOLUTE
-    F:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\air32f10x_adc.c 0x00000000   Number         0  air32f10x_adc.o ABSOLUTE
-    F:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\air32f10x_gpio.c 0x00000000   Number         0  air32f10x_gpio.o ABSOLUTE
-    F:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\air32f10x_i2c.c 0x00000000   Number         0  air32f10x_i2c.o ABSOLUTE
-    F:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\air32f10x_rcc.c 0x00000000   Number         0  air32f10x_rcc.o ABSOLUTE
-    F:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\air32f10x_rcc_ex.c 0x00000000   Number         0  air32f10x_rcc_ex.o ABSOLUTE
-    F:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\air32f10x_tim.c 0x00000000   Number         0  air32f10x_tim.o ABSOLUTE
-    F:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\delay.c 0x00000000   Number         0  delay.o ABSOLUTE
-    F:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\misc.c 0x00000000   Number         0  misc.o ABSOLUTE
-    F:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\RTE_Driver\GPIO_AIR32F10x.c 0x00000000   Number         0  gpio_air32f10x.o ABSOLUTE
+    C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\air32f10x_adc.c 0x00000000   Number         0  air32f10x_adc.o ABSOLUTE
+    C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\air32f10x_gpio.c 0x00000000   Number         0  air32f10x_gpio.o ABSOLUTE
+    C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\air32f10x_i2c.c 0x00000000   Number         0  air32f10x_i2c.o ABSOLUTE
+    C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\air32f10x_rcc.c 0x00000000   Number         0  air32f10x_rcc.o ABSOLUTE
+    C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\air32f10x_rcc_ex.c 0x00000000   Number         0  air32f10x_rcc_ex.o ABSOLUTE
+    C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\air32f10x_tim.c 0x00000000   Number         0  air32f10x_tim.o ABSOLUTE
+    C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\delay.c 0x00000000   Number         0  delay.o ABSOLUTE
+    C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\misc.c 0x00000000   Number         0  misc.o ABSOLUTE
+    C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\RTE_Driver\GPIO_AIR32F10x.c 0x00000000   Number         0  gpio_air32f10x.o ABSOLUTE
+    C:\\Users\\Administrator\\AppData\\Local\\Arm\\Packs\\Keil\\AIR32F103_DFP\\1.1.2\\Device\\StdPeriph_Driver\\src\\air32f10x_adc.c 0x00000000   Number         0  air32f10x_adc.o ABSOLUTE
+    C:\\Users\\Administrator\\AppData\\Local\\Arm\\Packs\\Keil\\AIR32F103_DFP\\1.1.2\\Device\\StdPeriph_Driver\\src\\air32f10x_gpio.c 0x00000000   Number         0  air32f10x_gpio.o ABSOLUTE
+    C:\\Users\\Administrator\\AppData\\Local\\Arm\\Packs\\Keil\\AIR32F103_DFP\\1.1.2\\Device\\StdPeriph_Driver\\src\\air32f10x_i2c.c 0x00000000   Number         0  air32f10x_i2c.o ABSOLUTE
+    C:\\Users\\Administrator\\AppData\\Local\\Arm\\Packs\\Keil\\AIR32F103_DFP\\1.1.2\\Device\\StdPeriph_Driver\\src\\air32f10x_rcc.c 0x00000000   Number         0  air32f10x_rcc.o ABSOLUTE
+    C:\\Users\\Administrator\\AppData\\Local\\Arm\\Packs\\Keil\\AIR32F103_DFP\\1.1.2\\Device\\StdPeriph_Driver\\src\\air32f10x_rcc_ex.c 0x00000000   Number         0  air32f10x_rcc_ex.o ABSOLUTE
+    C:\\Users\\Administrator\\AppData\\Local\\Arm\\Packs\\Keil\\AIR32F103_DFP\\1.1.2\\Device\\StdPeriph_Driver\\src\\air32f10x_tim.c 0x00000000   Number         0  air32f10x_tim.o ABSOLUTE
+    C:\\Users\\Administrator\\AppData\\Local\\Arm\\Packs\\Keil\\AIR32F103_DFP\\1.1.2\\Device\\StdPeriph_Driver\\src\\delay.c 0x00000000   Number         0  delay.o ABSOLUTE
+    C:\\Users\\Administrator\\AppData\\Local\\Arm\\Packs\\Keil\\AIR32F103_DFP\\1.1.2\\Device\\StdPeriph_Driver\\src\\misc.c 0x00000000   Number         0  misc.o ABSOLUTE
+    C:\\Users\\Administrator\\AppData\\Local\\Arm\\Packs\\Keil\\AIR32F103_DFP\\1.1.2\\RTE_Driver\\GPIO_AIR32F10x.c 0x00000000   Number         0  gpio_air32f10x.o ABSOLUTE
     RTE\Device\AIR32F103CB\startup_air32f10x.s 0x00000000   Number         0  startup_air32f10x.o ABSOLUTE
     RTE\Device\AIR32F103CB\system_air32f10x.c 0x00000000   Number         0  system_air32f10x.o ABSOLUTE
     RTE\\Device\\AIR32F103CB\\system_air32f10x.c 0x00000000   Number         0  system_air32f10x.o ABSOLUTE
@@ -1256,21 +1256,21 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       342         26          0          0          0       2093   adc.o
-       486         24          0          0          0       8998   air32f10x_adc.o
-       286          0          0          0          0       3384   air32f10x_gpio.o
-       360         48          0         20          0       5798   air32f10x_rcc.o
-       490         48          0          0          0       5609   air32f10x_tim.o
-       224         22          0          4          0       1859   delay.o
-      1204        124          0          5          0     261658   main.o
-        60         10          0          0          0       1081   misc.o
-       920         38       2072       1537          0       6921   oled.o
-       244         24          0          0          0       1460   pwm.o
-       112         38        544          0       1024        828   startup_air32f10x.o
-       328         28          0         20          0       2189   system_air32f10x.o
+       342         26          0          0          0       2293   adc.o
+       486         24          0          0          0       9778   air32f10x_adc.o
+       286          0          0          0          0       3644   air32f10x_gpio.o
+       360         48          0         20          0       6222   air32f10x_rcc.o
+       490         48          0          0          0       6205   air32f10x_tim.o
+       224         22          0          4          0       2087   delay.o
+      1204        124          0          5          0     262274   main.o
+        60         10          0          0          0       1209   misc.o
+       920         38       2072       1537          0       7661   oled.o
+       244         24          0          0          0       1608   pwm.o
+       112         38        544          0       1024        876   startup_air32f10x.o
+       328         28          0         20          0       2441   system_air32f10x.o
 
     ----------------------------------------------------------------------
-      5072        430       2648       1588       1028     301878   Object Totals
+      5072        430       2648       1588       1028     306298   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         16          0          0          2          4          0   (incl. Padding)
 
@@ -1323,8 +1323,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      6600        456       2648       1588       1028     299778   Grand Totals
-      6600        456       2648        668       1028     299778   ELF Image Totals (compressed)
+      6600        456       2648       1588       1028     304198   Grand Totals
+      6600        456       2648        668       1028     304198   ELF Image Totals (compressed)
       6600        456       2648        668          0          0   ROM Totals
 
 ==============================================================================

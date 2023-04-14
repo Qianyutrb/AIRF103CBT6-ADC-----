@@ -2,7 +2,7 @@
 .\objects\oled.o: oled.h
 .\objects\oled.o: ..\Libraries\AIR32F10xLib\inc\air32f10x.h
 .\objects\oled.o: ..\Libraries\CMSIS\Include\core_cm3.h
-.\objects\oled.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\oled.o: ..\Libraries\CMSIS\Include\cmsis_version.h
 .\objects\oled.o: ..\Libraries\CMSIS\Include\cmsis_compiler.h
 .\objects\oled.o: ..\Libraries\CMSIS\Include\cmsis_armcc.h
@@ -35,5 +35,5 @@
 .\objects\oled.o: ..\Libraries\AIR32F10xLib\inc\air32f10x_wwdg.h
 .\objects\oled.o: ..\Libraries\AIR32F10xLib\inc\misc.h
 .\objects\oled.o: ..\Libraries\DELAY\delay.h
-.\objects\oled.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\oled.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\oled.o: oledfont.h

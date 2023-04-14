@@ -1,8 +1,8 @@
-.\objects\air32f10x_gpio.o: F:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\air32f10x_gpio.c
+.\objects\air32f10x_gpio.o: C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\Device\StdPeriph_Driver\src\air32f10x_gpio.c
 .\objects\air32f10x_gpio.o: ..\Libraries\AIR32F10xLib\inc\air32f10x_gpio.h
 .\objects\air32f10x_gpio.o: ..\Libraries\AIR32F10xLib\inc\air32f10x.h
 .\objects\air32f10x_gpio.o: ..\Libraries\CMSIS\Include\core_cm3.h
-.\objects\air32f10x_gpio.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\air32f10x_gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\air32f10x_gpio.o: ..\Libraries\CMSIS\Include\cmsis_version.h
 .\objects\air32f10x_gpio.o: ..\Libraries\CMSIS\Include\cmsis_compiler.h
 .\objects\air32f10x_gpio.o: ..\Libraries\CMSIS\Include\cmsis_armcc.h

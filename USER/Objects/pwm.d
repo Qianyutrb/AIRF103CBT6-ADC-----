@@ -1,7 +1,7 @@
 .\objects\pwm.o: pwm.c
 .\objects\pwm.o: ..\Libraries\AIR32F10xLib\inc\air32f10x.h
 .\objects\pwm.o: ..\Libraries\CMSIS\Include\core_cm3.h
-.\objects\pwm.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pwm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\pwm.o: ..\Libraries\CMSIS\Include\cmsis_version.h
 .\objects\pwm.o: ..\Libraries\CMSIS\Include\cmsis_compiler.h
 .\objects\pwm.o: ..\Libraries\CMSIS\Include\cmsis_armcc.h

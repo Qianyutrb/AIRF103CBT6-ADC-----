@@ -1,7 +1,7 @@
 .\objects\system_air32f10x.o: RTE\Device\AIR32F103CB\system_air32f10x.c
 .\objects\system_air32f10x.o: ..\Libraries\AIR32F10xLib\inc\air32f10x.h
 .\objects\system_air32f10x.o: ..\Libraries\CMSIS\Include\core_cm3.h
-.\objects\system_air32f10x.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_air32f10x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\system_air32f10x.o: ..\Libraries\CMSIS\Include\cmsis_version.h
 .\objects\system_air32f10x.o: ..\Libraries\CMSIS\Include\cmsis_compiler.h
 .\objects\system_air32f10x.o: ..\Libraries\CMSIS\Include\cmsis_armcc.h

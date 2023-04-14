@@ -1,9 +1,9 @@
-.\objects\gpio_air32f10x.o: F:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\RTE_Driver\GPIO_AIR32F10x.c
-.\objects\gpio_air32f10x.o: F:\keil5\pack\Keil\AIR32F103_DFP\1.1.2\RTE_Driver\GPIO_AIR32F10x.h
-.\objects\gpio_air32f10x.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\gpio_air32f10x.o: C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\RTE_Driver\GPIO_AIR32F10x.c
+.\objects\gpio_air32f10x.o: C:\Users\Administrator\AppData\Local\Arm\Packs\Keil\AIR32F103_DFP\1.1.2\RTE_Driver\GPIO_AIR32F10x.h
+.\objects\gpio_air32f10x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 .\objects\gpio_air32f10x.o: ..\Libraries\AIR32F10xLib\inc\air32f10x.h
 .\objects\gpio_air32f10x.o: ..\Libraries\CMSIS\Include\core_cm3.h
-.\objects\gpio_air32f10x.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gpio_air32f10x.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\gpio_air32f10x.o: ..\Libraries\CMSIS\Include\cmsis_version.h
 .\objects\gpio_air32f10x.o: ..\Libraries\CMSIS\Include\cmsis_compiler.h
 .\objects\gpio_air32f10x.o: ..\Libraries\CMSIS\Include\cmsis_armcc.h

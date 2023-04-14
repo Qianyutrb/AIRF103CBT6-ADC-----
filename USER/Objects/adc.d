@@ -2,7 +2,7 @@
 .\objects\adc.o: adc.h
 .\objects\adc.o: ..\Libraries\AIR32F10xLib\inc\air32f10x.h
 .\objects\adc.o: ..\Libraries\CMSIS\Include\core_cm3.h
-.\objects\adc.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\adc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\adc.o: ..\Libraries\CMSIS\Include\cmsis_version.h
 .\objects\adc.o: ..\Libraries\CMSIS\Include\cmsis_compiler.h
 .\objects\adc.o: ..\Libraries\CMSIS\Include\cmsis_armcc.h
