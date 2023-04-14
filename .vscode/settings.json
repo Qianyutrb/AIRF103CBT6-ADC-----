@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "oled.h": "c",
+        "oledfont.h": "c",
+        "air32f10x.h": "c",
+        "delay.h": "c",
+        "air32f10x_gpio.h": "c",
+        "air32f10x_tim.h": "c"
+    }
+}

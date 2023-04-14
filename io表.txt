@@ -1,0 +1,16 @@
+设备 引脚 模式 时钟使能
+OLED SDA PB7 外设 I2C 数据线 (RCC_APB2Periph_GPIOB, ENABLE)
+OLED SCL PB6 外设 I2C 时钟线 (RCC_APB2Periph_GPIOB, ENABLE)
+
+声音传感器 1 PA0 模拟输入模式 (RCC_APB2Periph_GPIOA | RCC_APB2Periph_ADC1, ENABLE)
+声音传感器 2 PA1 模拟输入模式 (RCC_APB2Periph_GPIOA | RCC_APB2Periph_ADC1, ENABLE)
+声音传感器 3 PA2 模拟输入模式 (RCC_APB2Periph_GPIOA | RCC_APB2Periph_ADC1, ENABLE)
+声音传感器 4 PA3 模拟输入模式 (RCC_APB2Periph_GPIOA | RCC_APB2Periph_ADC1, ENABLE)
+
+舵机1 信号线 PA6 PWM 输出模式 (RCC_APB2Periph_GPIOA , ENABLE)
+舵机2 信号线 PA7 PWM 输出模式 (RCC_APB2Periph_GPIOA , ENABLE)
+
+上  PA4 通道4
+下  PA5 通道5
+左  PB0 通道8
+右  PB1 通道9
