@@ -61,6 +61,36 @@ void get_adc_Voltage(float *up_value, float *down_value, float *left_value, floa
 	*right_value = Get_Voltage(ADC_Channel_3, 10);
 }
 
+/**
+ * @brief PID算法计算函数
+ * @param setpoint 设定值
+ * @param input 实际值
+ * @return PID输出值
+ */
+float pid_algorithm(float setpoint, float input)
+{
+    // PID参数
+    float Kp = 1.0;  // 比例系数
+    float Ki = 0.1;  // 积分系数
+    float Kd = 0.01; // 微分系数
+
+    // PID变量
+    float error = setpoint - input; // 偏差
+    static float prev_error = 0;    // 上次偏差
+    static float integral = 0;      // 积分项
+    float derivative = error - prev_error; // 微分项
+
+    // 计算PID输出
+    float output = Kp * error + Ki * integral + Kd * derivative;
+
+    // 更新PID变量
+    integral += error;    // 累加积分项
+    prev_error = error;   // 保存上次偏差
+
+    // 返回PID输出
+    return output;
+}
+
 
 void manua_task()
 {
@@ -155,6 +185,12 @@ void auto_task(void)
 
 	// 获取四个声音传感器的 ADC 值
 	get_adc_Voltage(&up_value, &down_value, &left_value, &right_value);
+
+	/* PID处理 */
+	up_value = pid_algorithm(50.0, up_value);
+	down_value = pid_algorithm(50.0, down_value);
+	left_value = pid_algorithm(50.0, left_value);
+	right_value = pid_algorithm(50.0, right_value);
 
 	char angle_str[6] = {0};
 

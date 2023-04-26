@@ -10,5 +10,5 @@ typedef enum
     e_MANUAL_MODE,
     e_UNKNOW_MODE
 } MODE_e;
-
+float pid_algorithm(float setpoint, float input);
 #endif
